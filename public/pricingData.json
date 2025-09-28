@@ -1,39 +1,35 @@
 [
   {
     "id": 1,
-    "name": "Standard",
-    "price": "$29.99/month",
+    "name": "Basic Plan",
+    "price": "$29.99/mo",
     "description": "Perfect for beginners, the Basic Plan gives you access to essential gym equipment.",
     "features": [
       "Access to gym equipment",
       "Locker room access",
       "Three group classes per week",
-      "Free fitness consultation (once/month)",
-      "Access to swimming pool",
-      "Discount on workshops and events",
-      "Free towel service"
+      "Free fitness consultation (once/month)"
     ]
   },
   {
     "id": 2,
-    "name": "Premium",
-    "price": "$49.99/month",
+    "name": "Premium Plan",
+    "price": "$49.99/mo",
+    "popular": true,
     "description": "Ideal for regular fitness enthusiasts, the Standard Plan includes access to multiple group classes.",
     "features": [
       "Access to gym equipment",
       "Locker room + sauna",
       "Unlimited group classes",
+      "Spa amenities included",
       "Personal trainer (4 sessions/month)",
-      "Nutritional plan",
-      "Priority booking for classes",
-      "Access to special training zones",
-      "Guest pass (1 per month)"
+      "Nutritional plan"
     ]
   },
   {
     "id": 3,
-    "name": "VIP",
-    "price": "$99.99/month",
+    "name": "VIP Plan",
+    "price": "$99.99/mo",
     "description": "Designed for serious athletes and fitness lovers, the Premium and VIP Plans offer unlimited classes.",
     "features": [
       "All Premium features",
@@ -42,9 +38,7 @@
       "Guest passes (2 per month)",
       "Spa amenities included",
       "Exclusive VIP events",
-      "Private locker",
-      "Personalized workout plan",
-      "Free merchandise kit"
+      "Private locker"
     ]
   }
 ]
