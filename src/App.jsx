@@ -6,6 +6,8 @@ import PricingOptions from "./Components/PricingOptions/PricingOptions";
 import ResultChart from "./Components/ResultChart/ResultChart";
 import axios from "axios";
 import MarksChart from "./Components/MarksChart/MarksChart";
+import Test from "./Components/MarksChart/test";
+import { LineChart } from "recharts";
 
 const pricingPromise = fetch("pricingData.json").then((res) => res.json());
 
@@ -36,6 +38,9 @@ function App() {
         </Suspense>
 
         <ResultChart></ResultChart>
+
+        <Test></Test>
+       
       </main>
     </>
   );
